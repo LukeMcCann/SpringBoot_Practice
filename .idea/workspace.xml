@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb1335c-da6e-4161-9a12-c0d190987b7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/topic/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/topic/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/hello/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/hello/HelloController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574805422062</updated>
       <workItem from="1574805423183" duration="144000" />
-      <workItem from="1574853104307" duration="12016000" />
+      <workItem from="1574853104307" duration="12869000" />
     </task>
     <servers />
   </component>
