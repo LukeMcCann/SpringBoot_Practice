@@ -11,6 +11,14 @@ public class Topic
     private String id;
     private String description;
 
+    public Topic(){}
+    public Topic(String name, String id, String description)
+    {
+        this.name = name;
+        this.id = id;
+        this.description = description;
+    }
+
     // Getters and Setters
     public String getName(){return name;}
     public void setName(String name){this.name = name;}
