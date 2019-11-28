@@ -21,6 +21,7 @@ public class HelloController
      * we want this method to be executed.
      *
      * RequestMapping maps only map to GET by default, to map to other HTTP methods you have to specify it in the annotation.
+     * In other words we map a request to a response.
      *
      * @return String
      */
