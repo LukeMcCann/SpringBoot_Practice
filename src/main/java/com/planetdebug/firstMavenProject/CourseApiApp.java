@@ -20,6 +20,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * When building a REST API it is important to think about what the resources of the REST API are.
  * Once this is defined you can look at the ways which the consumers may access the resource. The resources of the
  * Course API are: Topic, Course, Lesson
+ *
+ * HTTP Methods allow us to access these resources in different ways, while a HTTP method defines what we do with the
+ * resource, the resource itself are constants (entities/nouns of the system).
  */
 // Define as a SpringBoot application
 @SpringBootApplication
