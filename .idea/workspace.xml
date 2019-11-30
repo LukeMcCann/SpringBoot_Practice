@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb1335c-da6e-4161-9a12-c0d190987b7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/topic/TopicService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/CourseApiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/CourseApiApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/topic/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planetdebug/firstMavenProject/topic/TopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/planetdebug/firstMavenProject/topic/TopicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/planetdebug/firstMavenProject/topic/TopicController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1574805423183" duration="144000" />
       <workItem from="1574853104307" duration="13370000" />
       <workItem from="1575052464585" duration="2454000" />
-      <workItem from="1575108003828" duration="7722000" />
+      <workItem from="1575108003828" duration="8163000" />
     </task>
     <servers />
   </component>
