@@ -10,6 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
  * In RestControllers handler methods return a JSON/XML response directly to client
  * rather than using view resolvers. It is a convenience annotation that is itself annotated
  * with @Controller and @ResponseBody.
+ *
+ * A request comes in to the Spring MVC framework, we write controllers to handle these requests. We write a method
+ * annotated with the URI and the HTTP method.
+ *
+ * When a GET request comes in we write a method to handle the request, then annotate the method with Spring MVC annotations
+ * mapping the method to the URI using a HTTP method.
+ *
+ * Spring MVC looks at both the URI and the HTTP Method (Get, Post, etc..) then it examines the list of available
+ * controllers in the class path, if any of these methods have the URI and HTTP that map to the incoming request it
+ * executes the corresponding method. Whatever the return type is is converted to a proper response and sent back.
  */
 @RestController
 public class HelloController
