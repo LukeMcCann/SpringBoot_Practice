@@ -2,6 +2,7 @@ package com.planetdebug.firstMavenProject.topic;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,11 +23,11 @@ import java.util.List;
 public class TopicService
 {
     // Note: never hard-code data in real apps, this is a experimental example.
-    private List<Topic> topics = Arrays.asList(
+    private List<Topic> topics = new ArrayList<>(Arrays.asList(
             new Topic("Guitar", "G127", "Guitar Instrumentation"),
             new Topic("Pokemon", "PKMN122", "Pokemon Anime and Games"),
             new Topic("The Flash", "DC19932", "The Flash Superhero")
-    );
+    ));
 
     public List<Topic> getAllTopics()
     {
