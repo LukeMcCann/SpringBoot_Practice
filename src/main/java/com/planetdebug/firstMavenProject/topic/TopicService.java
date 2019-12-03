@@ -38,4 +38,9 @@ public class TopicService
         // if(t.getId == id)
         return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
     }
+
+    public void addTopic(Topic topic)
+    {
+        topics.add(topic);
+    }
 }
